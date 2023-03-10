@@ -10,6 +10,8 @@ def prod(lst):
     for x in lst:
         r *= x
     return r
+
+
 def subtractProductAndSum(n):
     nums = [int(x) for x in str(n)]
     return prod(nums) - sum(nums)

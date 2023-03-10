@@ -11,6 +11,8 @@ def nearestValidPoint(x,y,points):
             if man_dist < min_dist:
                 ans, min_dist = i, man_dist
     return ans
+
+
 tests = [
 [3,4,[[1,2],[3,1],[2,4],[2,3],[4,4]],2],
 [3,4,[[3,4]],0],
